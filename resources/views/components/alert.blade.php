@@ -1,4 +1,4 @@
-<div class="pt-4">
+<div>
     @if (session()->has('message'))
         {{ $slot }}
         <div class="py-4 px-2 bg-green-300">{{ session()->get('message') }}</div>
